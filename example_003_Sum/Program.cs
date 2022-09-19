@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Введите два слагаемых через пробел");
-string[] num = Console.ReadLine().Split(' ');
-               int a = int.Parse(num[0]);
-               int b= int.Parse(num[1]);
+int a = new Random().Next(1,10);
+Console.WriteLine(a);
+int b = new Random().Next(1,10);
+Console.WriteLine(b);
 Console.WriteLine(a + b);
